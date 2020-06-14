@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="anchor" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="167.0" layoutY="126.0" opacity="0.23" prefHeight="268.0" prefWidth="387.0" style="-fx-background-color: #212121;" />
+      <JFXButton id="btnNew" focusTraversable="false" layoutX="408.0" layoutY="352.0" style="-fx-background-color: #76ff03; -fx-background-radius: 90;" text="회원가입">
+         <font>
+            <Font name="Tahoma Bold" size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXButton id="btnOk" focusTraversable="false" layoutX="217.0" layoutY="352.0" prefHeight="28.0" prefWidth="187.0" style="-fx-background-color: #76ff03; -fx-background-radius: 90;" text="로그인">
+         <font>
+            <Font name="Tahoma Bold" size="14.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="222.0" layoutY="264.0">
+         <image>
+            <Image url="@../icon/password.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="222.0" layoutY="212.0">
+         <image>
+            <Image url="@../icon/user.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="322.0" layoutY="199.0" prefHeight="5.0" prefWidth="70.0" style="-fx-background-color: #76ff03;" />
+      <Label layoutX="307.0" layoutY="150.0" text="로그인" textFill="WHITE">
+         <font>
+            <Font name="Tahoma Bold" size="36.0" />
+         </font>
+      </Label>
+      <JFXTextField id="textFieldId" focusColor="#00ff40" labelFloat="true" layoutX="284.0" layoutY="220.0" prefHeight="23.0" prefWidth="200.0" promptText="아이디" unFocusColor="#909090">
+         <font>
+            <Font name="Tahoma" size="14.0" />
+         </font>
+      </JFXTextField>
+      <JFXPasswordField id="passwordFieldPw" focusColor="#00ff40" labelFloat="true" layoutX="284.0" layoutY="274.0" prefHeight="23.0" prefWidth="200.0" promptText="비밀번호" unFocusColor="#909090">
+         <font>
+            <Font name="Tahoma" size="14.0" />
+         </font>
+      </JFXPasswordField>
+      <JFXTextField id="ip" focusColor="#b5b5b5" labelFloat="true" layoutX="411.0" layoutY="95.0" prefWidth="105.0" promptText="아이피" />
+      <JFXTextField id="port" focusColor="#b5b5b5" labelFloat="true" layoutX="522.0" layoutY="95.0" prefWidth="32.0" promptText="포트" />
+      <HBox alignment="CENTER" layoutX="167.0" layoutY="315.0" prefHeight="30.0" prefWidth="387.0">
+         <children>
+            <Label id="label" focusTraversable="false" text="설명" textFill="RED" visible="false">
+               <font>
+                  <Font name="Tahoma" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

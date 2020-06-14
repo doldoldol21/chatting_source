@@ -1,0 +1,6 @@
+#anchor{
+	-fx-background-image: url("/client/image/loginbackground.jpg");
+}
+.text-input {
+    -fx-text-fill: white;    
+}

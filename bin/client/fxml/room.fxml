@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<HBox alignment="CENTER_LEFT" prefHeight="18.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <StackPane HBox.hgrow="ALWAYS">
+         <children>
+            <StackPane opacity="0.3" style="-fx-background-color: white; -fx-background-radius: 7; -fx-border-color: black; -fx-border-radius: 7;" />
+            <HBox alignment="CENTER_LEFT" spacing="5.0">
+               <children>
+                  <Label id="label" text="기본 방" wrapText="true">
+                     <font>
+                        <Font name="GulimChe" size="13.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="5.0" right="5.0" top="2.0" />
+                     </HBox.margin>
+                  </Label>
+                  <HBox alignment="CENTER_RIGHT" HBox.hgrow="ALWAYS">
+                     <children>
+                        <Label id="label2" text="fdgdf">
+                           <HBox.margin>
+                              <Insets bottom="2.0" right="5.0" top="2.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font name="GulimChe" size="13.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+               </children>
+            </HBox>
+         </children>
+      </StackPane>
+   </children>
+</HBox>
