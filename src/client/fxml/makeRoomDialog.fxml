@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="anchor" prefHeight="100.0" prefWidth="250.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <StackPane layoutX="13.0" layoutY="14.0" prefHeight="75.0" prefWidth="225.0">
+         <children>
+            <StackPane opacity="0.64" style="-fx-background-color: #131339; -fx-background-radius: 10; -fx-border-color: silver; -fx-border-radius: 10; -fx-border-width: 2;">
+               <StackPane.margin>
+                  <Insets />
+               </StackPane.margin>
+            </StackPane>
+         </children>
+      </StackPane>
+      <JFXButton id="jbtnOk" focusTraversable="false" layoutX="129.0" layoutY="67.0" text="확인" textFill="WHITE" />
+      <JFXButton id="jbtnNo" focusTraversable="false" layoutX="169.0" layoutY="67.0" text="취소" textFill="WHITE" />
+      <Label id="label" focusTraversable="false" layoutX="46.0" layoutY="18.0" text="방의 제목을 입력해주세요" textFill="WHITE">
+         <font>
+            <Font name="Tahoma" size="14.0" />
+         </font>
+      </Label>
+      <JFXTextField id="jtextField" focusColor="#7434ff21" layoutX="46.0" layoutY="35.0" prefWidth="163.0" unFocusColor="#00000033">
+         <font>
+            <Font name="GulimChe" size="13.0" />
+         </font>
+      </JFXTextField>
+   </children>
+</AnchorPane>

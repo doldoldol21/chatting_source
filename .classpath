@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry excluding="client/lib/" kind="src" path="src"/>
+	<classpathentry kind="lib" path="src/client/lib/jfoenix-8.0.8.jar"/>
+	<classpathentry kind="lib" path="src/server/lib/mysql-connector-java-5.1.48.jar"/>
+	<classpathentry kind="lib" path="C:/java_workspace/라이브러리/poi-bin-4.1.2-20200217/poi-4.1.2/poi-4.1.2.jar" sourcepath="C:/java_workspace/라이브러리/poi-src-4.1.2-20200217/poi-4.1.2"/>
+	<classpathentry kind="lib" path="C:/java_workspace/라이브러리/poi-bin-4.1.2-20200217/poi-4.1.2/ooxml-lib/xmlbeans-3.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/java_workspace/라이브러리/poi-bin-4.1.2-20200217/poi-4.1.2/poi-ooxml-4.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/java_workspace/라이브러리/poi-bin-4.1.2-20200217/poi-4.1.2/lib/commons-collections4-4.4.jar"/>
+	<classpathentry kind="lib" path="C:/java_workspace/라이브러리/poi-bin-4.1.2-20200217/poi-4.1.2/poi-ooxml-schemas-4.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/java_workspace/라이브러리/poi-bin-4.1.2-20200217/poi-4.1.2/lib/commons-compress-1.19.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

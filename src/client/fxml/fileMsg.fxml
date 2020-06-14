@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<HBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox alignment="CENTER_LEFT" spacing="5.0" HBox.hgrow="ALWAYS">
+         <children>
+            <Label id="label" text="Label" textOverrun="CLIP">
+               <font>
+                   <Font name="GulimChe" size="13.0" />
+               </font></Label>
+            <HBox spacing="5.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <VBox>
+                     <children>
+                        <Circle id="circle" fill="WHITE" radius="15.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" />
+                     </children>
+                  </VBox>
+                  <StackPane>
+                     <children>
+                        <StackPane opacity="0.5" style="-fx-background-color: gold; -fx-background-radius: 10;">
+                           <StackPane.margin>
+                              <Insets />
+                           </StackPane.margin></StackPane>
+                        <HBox alignment="CENTER_LEFT" spacing="5.0" StackPane.alignment="CENTER_LEFT">
+                           <children>
+                              <JFXButton id="download" prefHeight="25.0" prefWidth="25.0" text=" " />
+                              <VBox alignment="CENTER" spacing="5.0">
+                                 <children>
+                                    <Label id="title" text="Label" />
+                                    <Label id="size" text="Label" textAlignment="CENTER" />
+                                 </children>
+                              </VBox>
+                           </children>
+                           <StackPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </StackPane.margin>
+                        </HBox>
+                     </children>
+                     <HBox.margin>
+                        <Insets bottom="10.0" />
+                     </HBox.margin>
+                     <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                     </cursor>
+                  </StackPane>
+               </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <padding>
+                  <Insets left="5.0" />
+               </padding>
+            </HBox>
+         </children>
+         <HBox.margin>
+            <Insets />
+         </HBox.margin>
+         <padding>
+            <Insets left="5.0" />
+         </padding>
+      </VBox>
+   </children>
+   <padding>
+      <Insets right="80.0" />
+   </padding>
+</HBox>
